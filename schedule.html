@@ -24,27 +24,27 @@
                 <th>Next Arrival</th>
                 <th>Minutes Away</th>
             </tr>
+            <tbody id="trains-added">
+            </tbody>
         </table>
     </div>
     <div class="add-train">
         <form>
-            Train Name:
-            <br>
-            <input type="text" id="train-name"> Destination
-            <br>
-            <input type="text" id="destination"> First Train Time:
-            <br>
-            <input type="date" id="first-train-time"> Frequency:
-            <br>
+            <p>Train Name:</p>
+            <input type="text" id="train-name"> 
+            <p>Destination:</p>
+            <input type="text" id="destination">
+            <p>First Train Time (HH:mm, military time):</p>
+            <input type="text" id="first-train-time"> 
+            <p>Frequency (min):</p>
             <input type="number" id="frequency">
-            <input type="submit" value="add train">
-
+            <input type="submit" value="add train" id="submit">
         </form>
     </div>
 
     <!-- Jquery, Moment.js, javascript, firebase -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.21.0/locale/af.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.js"></script>
     <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
     <script type="text/javascript" src="./assets/javascript/app.js"></script>
 </body>
