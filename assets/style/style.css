@@ -2,13 +2,19 @@
 body {
     background: url("../images/train-tracks.jpg");
     background-size: cover;
-    color: red;
+    color: white;
 }
-.container {
+.jumbotron {
+    background: #217DE4;
+}
+.train-schedule, .panel {
+    background: black;
+    opacity: .75;
 }
 table {
     text-align: center;
 }
 input {
     width: 100%;
+    background: lightblue;
 }
